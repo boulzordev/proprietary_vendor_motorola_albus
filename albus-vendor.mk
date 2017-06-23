@@ -910,7 +910,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/albus/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/motorola/albus/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/motorola/albus/proprietary/bin/time_daemon:system/bin/time_daemon
+    vendor/motorola/albus/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/motorola/albus/proprietary/bin/vl53l1_daemon:system/bin/vl53l1_daemon \
+    vendor/motorola/albus/proprietary/bin/sensors.qcom:system/bin/sensors.qcom
 
 PRODUCT_PACKAGES += \
     libril \
