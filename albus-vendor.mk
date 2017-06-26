@@ -217,18 +217,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_postproc.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so \
@@ -789,7 +777,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
     vendor/motorola/albus/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/motorola/albus/proprietary/lib/hw/camera.rc.so:system/lib/hw/camera.rc.so \
-    vendor/motorola/albus/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
+    vendor/motorola/albus/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/motorola/albus/proprietary/lib/hw/fingerprint.msm8953.so:system/lib/hw/fingerprint.msm8953.so \
     vendor/motorola/albus/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/motorola/albus/proprietary/lib/hw/sensors.albus.so:system/lib/hw/sensors.albus.so \
@@ -898,7 +886,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/albus/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/motorola/albus/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/motorola/albus/proprietary/bin/motosh:system/bin/motosh \
     vendor/motorola/albus/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/albus/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/motorola/albus/proprietary/bin/pm-service:system/bin/pm-service \
