@@ -736,6 +736,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/albus/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/albus/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/motorola/albus/proprietary/lib/libmodmanager.so:system/lib/libmodmanager.so \
     vendor/motorola/albus/proprietary/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
     vendor/motorola/albus/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/albus/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
