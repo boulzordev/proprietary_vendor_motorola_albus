@@ -871,7 +871,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/albus/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/albus/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/albus/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/albus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/albus/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/motorola/albus/proprietary/bin/tftp_server:system/bin/tftp_server \
@@ -880,7 +879,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/bin/sensors.qcom:system/bin/sensors.qcom
 
 PRODUCT_PACKAGES += \
-    libril \
     TimeService \
     datastatusnotification \
     CNEService \
