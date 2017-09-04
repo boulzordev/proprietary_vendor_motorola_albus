@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libbase64.so:system/vendor/lib/libbase64.so \
     vendor/motorola/albus/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/albus/proprietary/vendor/lib/libbt-logClient.so:system/vendor/lib/libbt-logClient.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/motorola/albus/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/motorola/albus/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
