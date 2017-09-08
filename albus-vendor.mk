@@ -875,7 +875,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/motorola/albus/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/albus/proprietary/bin/vl53l1_daemon:system/bin/vl53l1_daemon \
-    vendor/motorola/albus/proprietary/bin/sensors.qcom:system/bin/sensors.qcom
+    vendor/motorola/albus/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/motorola/potter/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so
 
 PRODUCT_PACKAGES += \
     TimeService \
