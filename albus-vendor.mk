@@ -759,7 +759,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/motorola/albus/proprietary/lib/hw/camera.rc.so:system/lib/hw/camera.rc.so \
     vendor/motorola/albus/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
-    vendor/motorola/albus/proprietary/lib/hw/fingerprint.msm8953.so:system/lib/hw/fingerprint.msm8953.so \
+    vendor/motorola/albus/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
     vendor/motorola/albus/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/motorola/albus/proprietary/lib/hw/sensors.albus.so:system/lib/hw/sensors.albus.so \
     vendor/motorola/albus/proprietary/lib/hw/sensors.iio.so:system/lib/hw/sensors.iio.so \
