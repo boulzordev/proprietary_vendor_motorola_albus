@@ -887,7 +887,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     TimeService \
     datastatusnotification \
-    CNEService \
     colorservice \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
