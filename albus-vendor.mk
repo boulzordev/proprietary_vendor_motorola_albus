@@ -877,7 +877,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/bin/vl53l1_daemon:system/bin/vl53l1_daemon \
     vendor/motorola/albus/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/potter/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
-    vendor/motorola/potter/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so
+    vendor/motorola/potter/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
+    vendor/motorola/potter/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so
 
 PRODUCT_PACKAGES += \
     TimeService \
