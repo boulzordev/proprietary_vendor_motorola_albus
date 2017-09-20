@@ -714,7 +714,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/motorola/albus/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/albus/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
-    vendor/motorola/albus/proprietary/lib/libadspd.so:system/lib/libadspd.so \
     vendor/motorola/albus/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/albus/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/motorola/albus/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
@@ -748,7 +747,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/motorola/albus/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/albus/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/albus/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/motorola/albus/proprietary/lib/libYuvSkia.so:system/lib/libYuvSkia.so \
     vendor/motorola/albus/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
     vendor/motorola/albus/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
@@ -756,7 +754,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/albus/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
     vendor/motorola/albus/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
-    vendor/motorola/albus/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/motorola/albus/proprietary/lib/hw/camera.rc.so:system/lib/hw/camera.rc.so \
     vendor/motorola/albus/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/motorola/albus/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
