@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/motorola/albus/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/motorola/albus/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-    vendor/motorola/albus/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/motorola/albus/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/albus/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/motorola/albus/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
@@ -498,6 +497,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/motorola/albus/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/motorola/albus/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/motorola/albus/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/motorola/albus/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/motorola/albus/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
@@ -1130,6 +1138,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/motorola/albus/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/motorola/albus/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
     vendor/motorola/albus/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
