@@ -1155,7 +1155,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libc2dcolorconvert.so:system/vendor/lib64/libc2dcolorconvert.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libq3dtools_adreno.so:system/vendor/lib64/libq3dtools_adreno.so \
     vendor/motorola/albus/proprietary/vendor/lib/libdtvhal.so:system/vendor/lib/libdtvhal.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libdtvhal.so:system/vendor/lib64/libdtvhal.so
+    vendor/motorola/albus/proprietary/vendor/lib64/libdtvhal.so:system/vendor/lib64/libdtvhal.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libdtvhal.so:system/vendor/lib64/libdtvhal.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so
 
 PRODUCT_PACKAGES += \
     TimeService \
