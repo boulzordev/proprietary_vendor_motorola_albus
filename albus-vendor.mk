@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/motorola/albus/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/motorola/albus/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/albus/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/motorola/albus/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/motorola/albus/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
     vendor/motorola/albus/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
