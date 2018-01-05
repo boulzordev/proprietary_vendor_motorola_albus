@@ -104,13 +104,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/motorola/albus/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/motorola/albus/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/motorola/albus/proprietary/etc/firmware/sensorhub-blacklist.txt:system/etc/firmware/sensorhub-blacklist.txt \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:system/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat \
-    vendor/motorola/albus/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
     vendor/motorola/albus/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
@@ -144,10 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/motorola/albus/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/motorola/albus/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
-    vendor/motorola/albus/proprietary/lib/hw/sensorhub.msm8953.so:system/lib/hw/sensorhub.msm8953.so \
-    vendor/motorola/albus/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/motorola/albus/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
-    vendor/motorola/albus/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/albus/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/albus/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/albus/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
@@ -177,7 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/motorola/albus/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/albus/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
-    vendor/motorola/albus/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/motorola/albus/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
     vendor/motorola/albus/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/albus/proprietary/lib/libmotefem_svc.so:system/lib/libmotefem_svc.so \
@@ -483,9 +477,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
     vendor/motorola/albus/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
     vendor/motorola/albus/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libsensorhubservice_jni.so:system/vendor/lib/libsensorhubservice_jni.so \
     vendor/motorola/albus/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/motorola/albus/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/motorola/albus/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
@@ -840,15 +831,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_light.so:system/vendor/lib/mmi_light.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_memory.so:system/vendor/lib/mmi_memory.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_storage.so:system/vendor/lib/mmi_storage.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
-    vendor/motorola/albus/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/albus/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/albus/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
     vendor/motorola/albus/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
