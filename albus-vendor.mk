@@ -42,6 +42,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
     vendor/motorola/albus/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/motorola/albus/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/motorola/albus/proprietary/vendor/bin/vl53l1_daemon:system/vendor/bin/vl53l1_daemon \
+    vendor/motorola/albus/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/motorola/albus/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
     vendor/motorola/albus/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/motorola/albus/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
@@ -145,6 +147,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/motorola/albus/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
     vendor/motorola/albus/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+    vendor/motorola/albus/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/albus/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/albus/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/albus/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
@@ -470,6 +473,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
     vendor/motorola/albus/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
     vendor/motorola/albus/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
+    vendor/motorola/albus/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
+    vendor/motorola/albus/proprietary/vendor/lib/sensors.iio.so:system/vendor/lib/sensors.iio.so \
+    vendor/motorola/albus/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so\
+    vendor/motorola/albus/proprietary/vendor/lib/sensors.tof.so:system/vendor/lib/sensors.tof.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libiio.so:system/vendor/lib/libiio.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libgnsspps.so:system/vendor/lib/libgnsspps.so \
     vendor/motorola/albus/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/motorola/albus/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/motorola/albus/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
@@ -833,6 +847,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_light.so:system/vendor/lib/mmi_light.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_memory.so:system/vendor/lib/mmi_memory.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_storage.so:system/vendor/lib/mmi_storage.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
@@ -942,6 +957,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libdrmutils.so:system/vendor/lib/libdrmutils.so \
     vendor/motorola/albus/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/albus/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/motorola/albus/proprietary/vendor/lib/hw/sensors.msm8953.so:system/vendor/lib/hw/sensors.msm8953.so \
+    vendor/motorola/albus/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
     vendor/motorola/albus/proprietary/lib64/libperipheral_client.so:system/lib64/libperipheral_client.so \
     vendor/motorola/albus/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/motorola/albus/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
