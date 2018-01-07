@@ -114,6 +114,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
+    vendor/motorola/albus/proprietary/etc/firmware/marley-dsp1-ultrasound.wmfw:system/etc/firmware/marley-dsp1-ultrasound.wmfw \
+    vendor/motorola/albus/proprietary/etc/firmware/marley-dsp2-aov-frontend.wmfw:system/etc/firmware/marley-dsp2-aov-frontend.wmfw \
+    vendor/motorola/albus/proprietary/etc/firmware/marley-dsp3-aov-control.wmfw:system/etc/firmware/marley-dsp3-aov-control.wmfw \
     vendor/motorola/albus/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/albus/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/albus/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -517,6 +520,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/motorola/albus/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/motorola/albus/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
+    vendor/motorola/albus/proprietary/vendor/lib/rfsa/adsp/libexternal_dog_skel.so:system/vendor/lib/rfsa/adsp/libexternal_dog_skel.so \
     vendor/motorola/albus/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/motorola/albus/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/motorola/albus/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
