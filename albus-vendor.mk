@@ -1197,7 +1197,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
-    vendor/motorola/albus/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar
+    vendor/motorola/albus/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
+    vendor/motorola/albus/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
+    vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so:system/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so \
+    vendor/motorola/albus/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so
 
 PRODUCT_PACKAGES += \
     TimeService \
