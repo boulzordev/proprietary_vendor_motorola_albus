@@ -143,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/libldacBT_abr.so:system/lib/libldacBT_abr.so \
     vendor/motorola/albus/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/motorola/albus/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.msm8953.so \
+    vendor/motorola/albus/proprietary/lib/hw/camera.rc.so:system/lib/hw/camera.rc.so \
     vendor/motorola/albus/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
     vendor/motorola/albus/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/albus/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
@@ -161,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
+    vendor/motorola/albus/proprietary/lib/libmodmanager.so:system/lib/libmodmanager.so \
     vendor/motorola/albus/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/albus/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/albus/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -550,6 +552,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imx338.so:system/vendor/lib/libmmcamera_imx338.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imx362_eeprom.so:system/vendor/lib/libmmcamera_imx362_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/lib_mot_led_calibration.so:system/vendor/lib/lib_mot_led_calibration.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libactuator_mot_ak7371_bear.so:system/vendor/lib/libactuator_mot_ak7371_bear.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libactuator_mot_ak7371_mono.so:system/vendor/lib/libactuator_mot_ak7371_mono.so \
     vendor/motorola/albus/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
     vendor/motorola/albus/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
     vendor/motorola/albus/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
@@ -570,10 +575,22 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/motorola/albus/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/motorola/albus/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so:system/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_liveshot.so:system/vendor/lib/libchromatix_ar1335_cpp_liveshot.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_preview.so:system/vendor/lib/libchromatix_ar1335_cpp_preview.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_snapshot.so:system/vendor/lib/libchromatix_ar1335_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_video.so:system/vendor/lib/libchromatix_ar1335_cpp_video.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_default_video.so:system/vendor/lib/libchromatix_ar1335_default_video.so \
     vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_hfr_120.so:system/vendor/lib/libchromatix_ar1335_hfr_120.so \
@@ -754,12 +771,22 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/motorola/albus/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/motorola/albus/proprietary/vendor/lib/libflash_aw3641.so:system/vendor/lib/libflash_aw3641.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libflash_wd3100.so:system/vendor/lib/libflash_wd3100.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/motorola/albus/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
     vendor/motorola/albus/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
     vendor/motorola/albus/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmdtpdemojni.so:system/vendor/lib/libmdtpdemojni.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dw9763_eeprom.so:system/vendor/lib/libmmcamera_dw9763_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_gt24c64_bear_eeprom.so:system/vendor/lib/libmmcamera_gt24c64_bear_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_l4h8f20_eeprom.so:system/vendor/lib/libmmcamera_l4h8f20_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_bear.so:system/vendor/lib/libmmcamera_mot_s5k3l8_bear.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_mono.so:system/vendor/lib/libmmcamera_mot_s5k3l8_mono.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_gt24c64_mono_eeprom.so:system/vendor/lib/libmmcamera_gt24c64_mono_eeprom.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:system/vendor/lib/libmmcamera2_mct_shimlayer.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ar1335.so:system/vendor/lib/libmmcamera_ar1335.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dw9767_eeprom.so:system/vendor/lib/libmmcamera_dw9767_eeprom.so \
