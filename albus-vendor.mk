@@ -894,6 +894,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
     vendor/motorola/albus/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:system/vendor/lib/soundfx/libaudiopreprocessing.so \
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libbundlewrapper.so:system/vendor/lib/soundfx/libbundlewrapper.so \
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libdownmix.so:system/vendor/lib/soundfx/libdownmix.so \
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libeffectproxy.so:system/vendor/lib/soundfx/libeffectproxy.so \
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libldnhncr.so:system/vendor/lib/soundfx/libldnhncr.so \
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:system/vendor/lib/soundfx/libqcomvisualizer.so\
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:system/vendor/lib/soundfx/libqcomvoiceprocessing.so\
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libreverbwrapper.so:system/vendor/lib/soundfx/libreverbwrapper.so\
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so\
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libvisualizer.so:system/vendor/lib/soundfx/libvisualizer.so\
     vendor/motorola/albus/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
     vendor/motorola/albus/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
     vendor/motorola/albus/proprietary/vendor/bin/fmhal_service:system/vendor/bin/fmhal_service \
