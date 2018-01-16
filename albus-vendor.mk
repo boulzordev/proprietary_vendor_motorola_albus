@@ -167,8 +167,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libarcsoft_beautyshot.so:system/vendor/lib/libarcsoft_beautyshot.so \
     vendor/motorola/albus/proprietary/vendor/lib/libcamerabgprocservice.so:system/vendor/lib/libcamerabgprocservice.so \
     vendor/motorola/albus/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
-    vendor/motorola/albus/proprietary/lib/libdtvtuner.so:system/lib/libdtvtuner.so \
-    vendor/motorola/albus/proprietary/lib64/libdtvtuner.so:system/lib64/libdtvtuner.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libdtvtuner.so:system/vendor/lib/libdtvtuner.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libdtvtuner.so:system/vendor/lib64/libdtvtuner.so \
     vendor/motorola/albus/proprietary/vendor/lib/libfamily_photo.so:system/vendor/lib/libfamily_photo.so \
     vendor/motorola/albus/proprietary/vendor/lib/libjscore.so:system/vendor/lib/libjscore.so \
     vendor/motorola/albus/proprietary/vendor/lib/libjustshoot.so:system/vendor/lib/libjustshoot.so \
