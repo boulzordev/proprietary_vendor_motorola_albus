@@ -1306,6 +1306,7 @@ PRODUCT_PACKAGES += \
     QPerformance \
     qti-vzw-ims-internal \
     rcsimssettings \
+    ModFmwkProxyService\
     ModService \
     ProjectorApp \
     tcmclient \
