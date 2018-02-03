@@ -104,6 +104,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
+    vendor/motorola/albus/proprietary/etc/permissions/com.motorola.aov.xml:system/etc/permissions/com.motorola.aov.xml \
+    vendor/motorola/albus/proprietary/etc/permissions/com.motorola.mod.protocols.xml:system/etc/permissions/com.motorola.mod.protocols.xml \
+    vendor/motorola/albus/proprietary/etc/permissions/com.motorola.mod.xml:system/etc/permissions/com.motorola.mod.xml \
+    vendor/motorola/albus/proprietary/etc/permissions/com.motorola.moto.xml:system/etc/permissions/com.motorola.moto.xml \
+    vendor/motorola/albus/proprietary/etc/permissions/com.motorola.motodisplay.xml:system/etc/permissions/com.motorola.motodisplay.xml \
     vendor/motorola/albus/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/motorola/albus/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/motorola/albus/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
@@ -196,6 +202,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/albus/proprietary/vendor/bin/esepmdaemon:system/vendor/bin/esepmdaemon \
     vendor/motorola/albus/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
+    vendor/motorola/albus/proprietary/vendor/bin/mods_camd:system/vendor/bin/mods_camd \
     vendor/motorola/albus/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/motorola/albus/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/motorola/albus/proprietary/vendor/bin/qti:system/vendor/bin/qti \
@@ -255,6 +262,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/motorola/albus/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/motorola/albus/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+    vendor/motorola/albus/proprietary/lib64/libmodhw.so:system/lib64/libmodhw.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -434,6 +442,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmodmanager.so:system/vendor/lib/libmodmanager.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmot_gpu_mapper.so:system/vendor/lib/libmot_gpu_mapper.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
     vendor/motorola/albus/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -890,7 +899,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
     vendor/motorola/albus/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/motorola/albus/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
     vendor/motorola/albus/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
     vendor/motorola/albus/proprietary/vendor/bin/fmhal_service:system/vendor/bin/fmhal_service \
     vendor/motorola/albus/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
@@ -1222,6 +1230,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libmotext_inf.so:system/vendor/lib64/libmotext_inf.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libmodmanager.so:system/vendor/lib64/libmodmanager.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqmimotext.so:system/vendor/lib64/libqmimotext.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqsap_sdk.so:system/vendor/lib64/libqsap_sdk.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
@@ -1277,6 +1286,7 @@ PRODUCT_PACKAGES += \
     com.qti.snapdragon.sdk.display \
     DTVPlayer \
     DTVService \
+    MotCameraMod \
     embmslibrary \
     imscmlibrary \
     qcrilhook \
@@ -1296,6 +1306,8 @@ PRODUCT_PACKAGES += \
     QPerformance \
     qti-vzw-ims-internal \
     rcsimssettings \
+    ModService \
+    ProjectorApp \
     tcmclient \
     com.quicinc.cne.api-V1.0-java \
     HotwordEnrollmentOKGoogleCS47L35 \
