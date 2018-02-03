@@ -989,6 +989,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/hw/sensors.msm8953.so:system/vendor/lib/hw/sensors.msm8953.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/sensors.msm8953.so:system/vendor/lib64/hw/sensors.msm8953.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libeffectproxy.so:system/vendor/lib/soundfx/libeffectproxy.so \
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libmmieffectswrapper.so:system/vendor/lib/soundfx/libmmieffectswrapper.so \
+    vendor/motorola/albus/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/albus/proprietary/lib64/libperipheral_client.so:system/lib64/libperipheral_client.so \
     vendor/motorola/albus/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/motorola/albus/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
