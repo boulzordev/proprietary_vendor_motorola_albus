@@ -160,8 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/albus/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/motorola/albus/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
-    vendor/motorola/albus/proprietary/lib/libldacBT_abr.so:system/lib/libldacBT_abr.so \
-    vendor/motorola/albus/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/motorola/albus/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
     vendor/motorola/albus/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
@@ -514,7 +512,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so\
     vendor/motorola/albus/proprietary/vendor/lib/sensors.tof.so:system/vendor/lib/sensors.tof.so \
     vendor/motorola/albus/proprietary/vendor/lib/libiio.so:system/vendor/lib/libiio.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libgnsspps.so:system/vendor/lib/libgnsspps.so \
     vendor/motorola/albus/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/motorola/albus/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/motorola/albus/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
@@ -843,7 +840,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libSonyDualPDParam.so:system/vendor/lib/libSonyDualPDParam.so \
     vendor/motorola/albus/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/motorola/albus/proprietary/lib64/vendor.display.config@1.0.so:system/lib64/vendor.display.config@1.0.so \
     vendor/motorola/albus/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/motorola/albus/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/motorola/albus/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
@@ -901,7 +897,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/albus/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
     vendor/motorola/albus/proprietary/vendor/bin/fmhal_service:system/vendor/bin/fmhal_service \
     vendor/motorola/albus/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
@@ -994,7 +989,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/motorola/albus/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
     vendor/motorola/albus/proprietary/vendor/lib/libprotobuf-cpp-biss.so:system/vendor/lib/libprotobuf-cpp-biss.so \
-    vendor/motorola/albus/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/albus/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/albus/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
     vendor/motorola/albus/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
@@ -1003,8 +997,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/motorola/albus/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/albus/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libdrmutils.so:system/vendor/lib/libdrmutils.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/albus/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/sensors.msm8953.so:system/vendor/lib/hw/sensors.msm8953.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/sensors.msm8953.so:system/vendor/lib64/hw/sensors.msm8953.so \
@@ -1114,9 +1106,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsdm-disp-vndapis.so:system/vendor/lib64/libsdm-disp-vndapis.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libsdmcore.so:system/vendor/lib64/libsdmcore.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libsdmutils.so:system/vendor/lib64/libsdmutils.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
@@ -1126,7 +1116,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libloc_core.so:system/vendor/lib64/libloc_core.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
     vendor/motorola/albus/proprietary/vendor/lib64/lib_drplugin_server.so:system/vendor/lib64/lib_drplugin_server.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
@@ -1135,9 +1124,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libgnsspps.so:system/vendor/lib64/libgnsspps.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libgnss.so:system/vendor/lib64/libgnss.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libgnss.so:system/vendor/lib/libgnss.so \
     vendor/motorola/albus/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/motorola/albus/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
@@ -1209,22 +1195,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libspl.so:system/vendor/lib64/libspl.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgralloc1.so:system/vendor/lib/libgralloc1.so \
-    vendor/motorola/albus/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/motorola/albus/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
-    vendor/motorola/albus/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/motorola/albus/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
     vendor/motorola/albus/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/motorola/albus/proprietary/vendor/lib/libGLESv1_CM_adreno.so:system/vendor/lib/libGLESv1_CM_adreno.so \
     vendor/motorola/albus/proprietary/vendor/lib/libGLESv2_adreno.so:system/vendor/lib/libGLESv2_adreno.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libc2dcolorconvert.so:system/vendor/lib/libc2dcolorconvert.so \
     vendor/motorola/albus/proprietary/vendor/lib/libq3dtools_adreno.so:system/vendor/lib/libq3dtools_adreno.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libsdmcore.so:system/vendor/lib/libsdmcore.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libsdmutils.so:system/vendor/lib/libsdmutils.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libGLESv1_CM_adreno.so:system/vendor/lib64/libGLESv1_CM_adreno.so \
@@ -1243,13 +1222,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libmodmanager.so:system/vendor/lib64/libmodmanager.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqmimotext.so:system/vendor/lib64/libqmimotext.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libqsap_sdk.so:system/vendor/lib64/libqsap_sdk.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/motorola/albus/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/librilutils.so:system/vendor/lib64/librilutils.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsensorndkbridge.so:system/vendor/lib64/libsensorndkbridge.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
