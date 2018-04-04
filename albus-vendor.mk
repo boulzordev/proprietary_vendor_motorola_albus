@@ -943,6 +943,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/motorola/albus/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/albus/proprietary/vendor/lib/libuy.so:system/vendor/lib/libuy.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libunshorten.so:system/vendor/lib/libunshorten.so \
     vendor/motorola/albus/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/motorola/albus/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/motorola/albus/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
