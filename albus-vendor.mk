@@ -153,6 +153,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/motorola/albus/proprietary/vendor/bin/adspd:system/vendor/bin/adspd \
     vendor/motorola/albus/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
+    vendor/motorola/albus/proprietary/vendor/bin/vpplibraryfunctionaltest:system/vendor/bin/vpplibraryfunctionaltest \
+    vendor/motorola/albus/proprietary/vendor/bin/vpplibraryunittest:system/vendor/bin/vpplibraryunittest \
     vendor/motorola/albus/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/motorola/albus/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/motorola/albus/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
