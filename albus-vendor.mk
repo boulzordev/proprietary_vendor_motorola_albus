@@ -455,6 +455,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libsensorndkbridge.so:system/vendor/lib64/libsensorndkbridge.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
