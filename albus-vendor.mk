@@ -133,15 +133,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/motorola/albus/proprietary/lib/android.hardware.sensors@1.0.so:system/lib/android.hardware.sensors@1.0.so \
     vendor/motorola/albus/proprietary/lib/com.motorola.mod@1.0.so:system/lib/com.motorola.mod@1.0.so \
-    vendor/motorola/albus/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
     vendor/motorola/albus/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/albus/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/motorola/albus/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
-    vendor/motorola/albus/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/motorola/albus/proprietary/lib/libdualcameraddm.so:system/lib/libdualcameraddm.so \
     vendor/motorola/albus/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/motorola/albus/proprietary/lib/libeqservice.so:system/lib/libeqservice.so \
-    vendor/motorola/albus/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/albus/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/motorola/albus/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/motorola/albus/proprietary/lib/libjni_clearsight.so:system/lib/libjni_clearsight.so \
@@ -196,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/fmhal_service:system/vendor/bin/fmhal_service \
     vendor/motorola/albus/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
     vendor/motorola/albus/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
+    vendor/motorola/albus/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/albus/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/albus/proprietary/vendor/bin/hw/motorola.hardware.mods_camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.mods_camera.provider@2.4-service \
     vendor/motorola/albus/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:system/vendor/bin/hw/android.hardware.sensors@1.0-service \
@@ -254,6 +252,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/motorola/albus/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/motorola/albus/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/motorola/albus/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/motorola/albus/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
     vendor/motorola/albus/proprietary/vendor/etc/init/motorola.hardware.mods_camera.provider@2.4-service.rc:system/vendor/etc/init/motorola.hardware.mods_camera.provider@2.4-service.rc \
     vendor/motorola/albus/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:system/vendor/etc/init/android.hardware.sensors@1.0-service.rc \
@@ -502,6 +501,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib/android.hardware.sensors@1.0-impl.so:system/vendor/lib/android.hardware.sensors@1.0-impl.so \
+    vendor/motorola/albus/proprietary/vendor/lib/com.fingerprints.extension@1.0_vendor.so:system/vendor/lib/com.fingerprints.extension@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/motorola/albus/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/motorola/albus/proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so:system/vendor/lib/com.quicinc.cne.constants@2.0.so \
