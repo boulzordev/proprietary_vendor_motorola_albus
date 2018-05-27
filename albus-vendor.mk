@@ -19,13 +19,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/albus/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/albus/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/albus/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/motorola/albus/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
-    vendor/motorola/albus/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
-    vendor/motorola/albus/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
-    vendor/motorola/albus/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/motorola/albus/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
-    vendor/motorola/albus/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/albus/proprietary/etc/acdbdata/Bluetooth_cal.acdb::$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/motorola/albus/proprietary/etc/acdbdata/General_cal.acdb::$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
+    vendor/motorola/albus/proprietary/etc/acdbdata/Global_cal.acdb::$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
+    vendor/motorola/albus/proprietary/etc/acdbdata/Handset_cal.acdb::$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Handset_cal.acdb \
+    vendor/motorola/albus/proprietary/etc/acdbdata/Hdmi_cal.acdb::$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/motorola/albus/proprietary/etc/acdbdata/Headset_cal.acdb::$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
+    vendor/motorola/albus/proprietary/etc/acdbdata/Speaker_cal.acdb::$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/albus/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/motorola/albus/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/motorola/albus/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
@@ -84,11 +84,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat \
     vendor/motorola/albus/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
-    vendor/motorola/albus/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
-    vendor/motorola/albus/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/motorola/albus/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
-    vendor/motorola/albus/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
-    vendor/motorola/albus/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
+    vendor/motorola/albus/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin::$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
+    vendor/motorola/albus/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin::$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/motorola/albus/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin::$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
+    vendor/motorola/albus/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin::$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
+    vendor/motorola/albus/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat::$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/albus/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
     vendor/motorola/albus/proprietary/etc/permissions/com.motorola.aov.xml:system/etc/permissions/com.motorola.aov.xml \
     vendor/motorola/albus/proprietary/etc/permissions/com.motorola.cameraone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.cameraone.xml \
