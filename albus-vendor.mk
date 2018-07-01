@@ -31,41 +31,41 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/motorola/albus/proprietary/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/motorola/albus/proprietary/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
-    vendor/motorola/albus/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
-    vendor/motorola/albus/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/motorola/albus/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/motorola/albus/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
-    vendor/motorola/albus/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
-    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_5_1.fw:system/etc/firmware/cpp_firmware_v1_5_1.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)firmware/a225_pfp.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/a300_pfp.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pm4.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pm4.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pm4.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
+    vendor/motorola/albus/proprietary/etc/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a530v1_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pfp.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a530v1_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pm4.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v2_seq.fw2 \
+    vendor/motorola/albus/proprietary/etc/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
+    vendor/motorola/albus/proprietary/etc/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
+    vendor/motorola/albus/proprietary/etc/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
+    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/motorola/albus/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/motorola/albus/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/marley-dsp1-ultrasound.wmfw:system/etc/firmware/marley-dsp1-ultrasound.wmfw \
-    vendor/motorola/albus/proprietary/etc/firmware/marley-dsp2-aov-frontend.wmfw:system/etc/firmware/marley-dsp2-aov-frontend.wmfw \
-    vendor/motorola/albus/proprietary/etc/firmware/marley-dsp3-aov-control.wmfw:system/etc/firmware/marley-dsp3-aov-control.wmfw \
+    vendor/motorola/albus/proprietary/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/marley-dsp1-ultrasound.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp1-ultrasound.wmfw \
+    vendor/motorola/albus/proprietary/etc/firmware/marley-dsp2-aov-frontend.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp2-aov-frontend.wmfw \
+    vendor/motorola/albus/proprietary/etc/firmware/marley-dsp3-aov-control.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp3-aov-control.wmfw \
     vendor/motorola/albus/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/motorola/albus/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
     vendor/motorola/albus/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
@@ -115,14 +115,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/albus/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/motorola/albus/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/motorola/albus/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
+    vendor/motorola/albus/proprietary/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_jni.so \
     vendor/motorola/albus/proprietary/lib64/libmodhw.so:system/lib64/libmodhw.so \
-    vendor/motorola/albus/proprietary/lib64/libperipheral_client.so:system/lib64/libperipheral_client.so \
+    vendor/motorola/albus/proprietary/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/motorola/albus/proprietary/lib64/libiio.so:system/lib64/libiio.so \
-    vendor/motorola/albus/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
-    vendor/motorola/albus/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
+    vendor/motorola/albus/proprietary/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
+    vendor/motorola/albus/proprietary/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
     vendor/motorola/albus/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
-    vendor/motorola/albus/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
+    vendor/motorola/albus/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxt_native.so \
     vendor/motorola/albus/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/motorola/albus/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/motorola/albus/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
@@ -132,9 +132,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/albus/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/motorola/albus/proprietary/lib/com.motorola.mod@1.0.so:system/lib/com.motorola.mod@1.0.so \
-    vendor/motorola/albus/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
-    vendor/motorola/albus/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
-    vendor/motorola/albus/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/motorola/albus/proprietary/lib/libadropbox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadropbox.so \
+    vendor/motorola/albus/proprietary/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
+    vendor/motorola/albus/proprietary/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
     vendor/motorola/albus/proprietary/lib/libdualcameraddm.so:system/lib/libdualcameraddm.so \
     vendor/motorola/albus/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/motorola/albus/proprietary/lib/libeqservice.so:system/lib/libeqservice.so \
@@ -153,26 +153,26 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/libjni_trueportrait.so:system/lib/libjni_trueportrait.so \
     vendor/motorola/albus/proprietary/lib/libjni_truescanner_v2.so:system/lib/libjni_truescanner_v2.so \
     vendor/motorola/albus/proprietary/lib/libjni_ubifocus.so:system/lib/libjni_ubifocus.so \
-    vendor/motorola/albus/proprietary/lib/libjson.so:system/lib/libjson.so \
-    vendor/motorola/albus/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
-    vendor/motorola/albus/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
-    vendor/motorola/albus/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
-    vendor/motorola/albus/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
-    vendor/motorola/albus/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
-    vendor/motorola/albus/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
-    vendor/motorola/albus/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
-    vendor/motorola/albus/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
+    vendor/motorola/albus/proprietary/lib/libjson.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjson.so \
+    vendor/motorola/albus/proprietary/lib/libmdmcutback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmcutback.so \
+    vendor/motorola/albus/proprietary/lib/lib_mot_app6_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_app6_metadata.so \
+    vendor/motorola/albus/proprietary/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotaudioutils.so \
+    vendor/motorola/albus/proprietary/lib/libmotext_inf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotext_inf.so \
+    vendor/motorola/albus/proprietary/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
+    vendor/motorola/albus/proprietary/lib/libmot-qc-fd-offline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot-qc-fd-offline.so \
+    vendor/motorola/albus/proprietary/lib/lib_mottof.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mottof.so \
+    vendor/motorola/albus/proprietary/lib/libqmimotext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmimotext.so \
     vendor/motorola/albus/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/motorola/albus/proprietary/lib/libqvrcamera_client.so:system/lib/libqvrcamera_client.so \
-    vendor/motorola/albus/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
-    vendor/motorola/albus/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
+    vendor/motorola/albus/proprietary/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
+    vendor/motorola/albus/proprietary/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
     vendor/motorola/albus/proprietary/lib/libseemore.so:system/lib/libseemore.so \
     vendor/motorola/albus/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/motorola/albus/proprietary/lib/libts_detected_face_jni.so:system/lib/libts_detected_face_jni.so \
     vendor/motorola/albus/proprietary/lib/libts_face_beautify_hal.so:system/lib/libts_face_beautify_hal.so \
     vendor/motorola/albus/proprietary/lib/libts_face_beautify_jni.so:system/lib/libts_face_beautify_jni.so \
-    vendor/motorola/albus/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
-    vendor/motorola/albus/proprietary/lib/libYuvSkia.so:system/lib/libYuvSkia.so \
+    vendor/motorola/albus/proprietary/lib/libuiblur.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuiblur.so \
+    vendor/motorola/albus/proprietary/lib/libYuvSkia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libYuvSkia.so \
     vendor/motorola/albus/proprietary/lib/motorola.hardware.camera.device@1.0.so:system/lib/motorola.hardware.camera.device@1.0.so \
     vendor/motorola/albus/proprietary/lib/motorola.hardware.camera.provider@2.4.so:system/lib/motorola.hardware.camera.provider@2.4.so \
     vendor/motorola/albus/proprietary/lib/motorola.hardware.mods_camera.provider@2.4.so:system/lib/motorola.hardware.mods_camera.provider@2.4.so \
